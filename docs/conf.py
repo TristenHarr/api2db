@@ -30,8 +30,7 @@ release = '0.3.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinxcontrib.napoleon",
-    "sphinx.ext.todo"
+    "sphinxcontrib.napoleon"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
