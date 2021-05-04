@@ -1,9 +1,5 @@
-The future of api2db and contributing
-=====================================
-
-Installing the project as a developer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+The future of api2db
+====================
 
 Future Plans
 ~~~~~~~~~~~~
