@@ -8,6 +8,26 @@ Installation
 
 ``pip install api2db``
 
+**To add MySQL support**
+
+``pip install mypysql``
+
+**To add MariaDB support**
+
+``pip install mariadb``
+
+**To add PostgreSQL support**
+
+``pip install psycopg2``
+
+**To add Omnisci support**
+
+::
+
+    pip install pymapd==0.25.0
+    pip install pyarrow==3.0.0
+    pip install pandas --upgrade
+
 Quickstart
 ----------
 

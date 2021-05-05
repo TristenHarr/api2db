@@ -27,7 +27,7 @@ copyright = '2021, Tristen Harr'
 author = 'Tristen Harr'
 
 # The full version, including alpha/beta/rc tags
-release = '0.3.0'
+release = '0.9.9'
 
 # -- General configuration ---------------------------------------------------
 
