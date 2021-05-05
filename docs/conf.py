@@ -20,6 +20,9 @@ mocks = ["pymapd", "pymapd.connect"]
 for m in mocks:
     sys.modules[m] = mock.Mock()
 
+for x in os.walk("../src/"):
+    sys.path.insert(0, x[0])
+
 # -- Project information -----------------------------------------------------
 
 project = 'api2db'
