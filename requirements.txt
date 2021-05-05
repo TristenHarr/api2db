@@ -1,5 +1,4 @@
 alabaster==0.7.12
-api2db==0.0.5
 Babel==2.9.1
 certifi==2020.12.5
 chardet==4.0.0
