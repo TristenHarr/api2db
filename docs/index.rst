@@ -83,6 +83,7 @@ Contents
    modules
 
 **The creator of api2db is currently searching for a job. He graduates with a bachelors in CS May 15th**
+
 **Contact him by emailing tristenharr@gmail.com**
 
 Indices and tables
