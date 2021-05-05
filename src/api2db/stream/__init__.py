@@ -9,18 +9,6 @@
 +-----------------+--------------+
 """
 from .stream2local import Stream2Local
-
-try:
-    from .stream2bigquery import Stream2Bigquery
-except ModuleNotFoundError:
-    pass
-
-try:
-    from .stream2sql import Stream2Sql
-except ModuleNotFoundError:
-    pass
-
-try:
-    from .stream2omnisci import Stream2Omnisci
-except ModuleNotFoundError:
-    pass
+from .stream2bigquery import Stream2Bigquery
+from .stream2sql import Stream2Sql
+from .stream2omnisci import Stream2Omnisci

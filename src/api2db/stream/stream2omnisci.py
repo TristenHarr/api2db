@@ -26,8 +26,11 @@ WARNING:
 from .stream import Stream
 from ..app.log import get_logger
 from ..app.auth_manager import auth_manage
-from pymapd import connect
-from pymapd import Connection
+try:
+    from pymapd import connect
+    from pymapd import Connection
+except ModuleNotFoundError:
+    pass
 import pandas as pd
 import time
 from typing import Optional, Union
