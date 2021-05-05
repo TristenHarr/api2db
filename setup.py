@@ -7,7 +7,7 @@ long_description = (here / 'README.rst').read_text(encoding="utf-8")
 
 setup(
     name="api2db",
-    version="0.0.5",
+    version="0.0.6",
     description="Python Api data collection tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -37,16 +37,14 @@ setup(
         "urllib3>=1.26.4",
         "requests>=2.25.1",
         "SQLAlchemy>=1.4.11",
-        "SQLAlchemy-Utils>=0.37.0"
+        "SQLAlchemy-Utils>=0.37.0",
+        "google-cloud-bigquery>=2.11.0",
+        "pandas-gbq>=0.14.1"
     ],
     extras_require={
         "postgresql": ["psycopg2>=2.8.6"],
         "mariadb": ["mariadb>=1.0.6"],
-        "mysql": ["pymysql>=1.0.2"],
-        "google-cloud-bigquery": ["google-cloud-bigquery>=2.11.0", "pandas-gbq>=0.14.1"],
-        "all": ["SQLAlchemy>=1.4.11", "SQLAlchemy-Utils>=0.37.0", "psycopg>=2.8.6", "mariadb>=1.0.6",
-                "pymysql>=1.0.2", "google-cloud-bigquery>=2.11.0", "pandas-gbq>=0.14.1"
-                ]
+        "mysql": ["pymysql>=1.0.2"]
     },
     entry_points={
         "console_scripts": [

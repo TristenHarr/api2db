@@ -36,3 +36,4 @@ sphinxcontrib-serializinghtml==1.1.4
 SQLAlchemy==1.4.13
 SQLAlchemy-Utils==0.37.1
 urllib3==1.26.4
+api2db>=0.0.6

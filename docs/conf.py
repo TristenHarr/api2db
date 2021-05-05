@@ -15,7 +15,7 @@ import sys
 from unittest import mock
 
 sys.path.insert(0, os.path.abspath('../src/'))
-MOCK_MODULES = ["mariadb", "psycopg", "google-cloud-bigquery", "pandas-gbq", "pymysql"]
+MOCK_MODULES = ["mariadb", "psycopg", "google-bigquery", "pandas-gbq", "pymysql"]
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = mock.Mock()
 
