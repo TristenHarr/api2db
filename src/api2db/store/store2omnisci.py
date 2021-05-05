@@ -3,7 +3,7 @@
 Contains the Store2Omnisci class
 ==================================
 """
-from ..store.store import Store
+from .store import Store
 from ..stream.stream2omnisci import Stream2Omnisci
 from typing import Optional, List
 

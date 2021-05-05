@@ -3,7 +3,7 @@
 Contains the Store2Bigquery class
 ==================================
 """
-from ..store.store import Store
+from .store import Store
 from ..stream.stream2bigquery import Stream2Bigquery
 from typing import Optional, List
 

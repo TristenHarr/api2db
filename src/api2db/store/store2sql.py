@@ -3,7 +3,7 @@
 Contains the Store2Sql class
 ==================================
 """
-from ..store.store import Store
+from .store import Store
 from ..stream.stream2sql import Stream2Sql
 from typing import Optional, List
 
