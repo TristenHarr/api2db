@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Contains the Stream class
-================================
-
-Todo:
-    * Add support for sharded uploads -> See chunk_size
-
+=========================
 """
 from .file_converter import FileConverter
 from ..app.log import get_logger

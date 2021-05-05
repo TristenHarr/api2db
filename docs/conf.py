@@ -12,8 +12,13 @@
 
 import os
 import sys
+from unittest import mock
 
 sys.path.insert(0, os.path.abspath('../src/'))
+
+mocks = ["pymapd", "pymapd.connect"]
+for m in mocks:
+    sys.modules[m] = mock.Mock()
 
 # -- Project information -----------------------------------------------------
 
