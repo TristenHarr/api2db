@@ -7,7 +7,7 @@ long_description = (here / 'README.rst').read_text(encoding="utf-8")
 
 setup(
     name="api2db",
-    version="0.9.9",
+    version="1.0.1",
     description="Python Api data collection tool",
     long_description=long_description,
     long_description_content_type="text/markdown",

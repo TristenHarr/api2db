@@ -30,7 +30,7 @@ try:
     from pymapd import connect
     from pymapd import Connection
 except ModuleNotFoundError:
-    pass
+    Connection = None
 import pandas as pd
 import time
 from typing import Optional, Union
